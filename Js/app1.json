@@ -129,23 +129,7 @@
                     }
                 }
             }
-        },
-        {
-            "sys": {
-                "id": "10"
-            },
-            "Fields": {
-                "Brand": "Iglen",
-                "title": "American Branded Wear",
-                "Price": "80$",
-                "Image": {
-                    "Fields": {
-                        "file":{
-                        "url": "./img/T-shirt Designs/2.jpg"
-                    }
-                }
-                }
-            }
         }
+        
     ]
 }
