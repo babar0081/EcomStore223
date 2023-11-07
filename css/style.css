@@ -259,7 +259,7 @@ body {
   height: 100vh;
   top: -10vh;
   z-index: -1;
-  background-image: url(img/Banner/ban1.jpg);
+  background-image: url(/img/Banner/ban1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -291,7 +291,7 @@ body {
   margin-top: 3%;
   padding-bottom: 1%;
   background-position: center;
-  background-image: url(/img/Banner/ban1.jpg);
+  background-image: url(/img/Banner/button.png);
   background-size: cover;
   object-fit: cover;
   background-color: transparent;
