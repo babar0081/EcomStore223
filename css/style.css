@@ -259,7 +259,7 @@ body {
   height: 100vh;
   top: -10vh;
   z-index: -1;
-  background-image: url(../img/Banner/b4.jpg);
+  background-image: url(/b4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
