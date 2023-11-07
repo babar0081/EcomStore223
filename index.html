@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" defer/>
+  
+  <script src="https://kit.fontawesome.com/098f839990.js" crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <section class="Header">
+    <a>
+      <img src="./Images/deskplus-logo.png" alt="" />
+    </a>
+    <div class="Navbar">
+      <ul>
+        <li href="home"><a class="active"> home</a></li>
+        <li ><a> Shop</a></li>
+        <li><a> About</a></li>
+        <li><a> Blog</a></li>
+        <li><a> Contact us</a></li>
+        <div id="cart-nmb">
+        <a id="Cart-button">
+          <i class="fa-solid fa-cart-shopping" ></i>
+          <p id="number">0</p> 
+        </a></div>
+      </ul>
+    </div>
+  </section>
+  <section id="hero">
+    <div class="offers">
+      <h4> Trade-in-offer</h4>
+      <h2 class="gap">Exclusive Deals at up 70% OFF</h2>
+      <h1 class="gap">On All Products</h1>
+      <p>Save more With coupons and upto 70% OFF!! </p>
+      <button>Shop Now</button>
+    </div>
+  </section>
+  <section id="Shop">
+    <h1>Our Featured Products</h1>
+    <h2>Summer Sale Flat 50% OFF</h2>
+    <div class="Product">
+      
+
+    </div>
+
+  </section>
+  <div id="cart-overlay">
+    <div id="cart">
+      <div id="close">
+        <i class="fa-solid fa-xmark"></i>
+      </div>
+      <h2>Your Cart</h2>
+      <div id="cart-Content">
+        <div id="cart-item">
+          <img src="Tshirts/T-shirt Designs/7.jpg" alt="" />
+          <div id="product-detail">
+            <h4 id="item-name">Tshirt</h4>
+            <h4 id="item-price">Price $80</h4>
+            <span id="remove-item">Remove item</span>
+          </div>
+          <div id="product-quantity">
+            <i class="fa-solid fa-chevron-up"></i>
+            <p>0</p>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+        </div>
+      </div> 
+      <div id="cart-footer">
+        <h3>Your Total : $ <span id="cart-total"> 0 </span> </h3>
+        <div id="cart-buttons">
+          <button id="Clear-All">Clear All</button>
+          <button id="Procced-further">Buy All</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src=" app.js">
+  
+</script>
+
+</html>
