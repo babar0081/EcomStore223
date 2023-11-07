@@ -107,7 +107,7 @@
                 "Image": {
                     "Fields": {
                         "file":{
-                        "url": "/img/T-shirt Designs/9.jpg"
+                        "url": "./img/T-shirt Designs/9.jpg"
                     }}
                 }
             }
