@@ -15,7 +15,7 @@ let cart = [];
 class Products {
   async getProducts() {
     try {
-      let data = await (await fetch("/app1.json")).json();
+      let data = await (await fetch("/Js/app1.json")).json();
       // let result = await data.json();
       let product = data.items;
       product = product.map(function (item) {
@@ -65,23 +65,22 @@ class Ui {
     });
     productDom.innerHTML = result;
   }
-  // getbagButtons() {
-  //   const btn = [...document.querySelectorAll(".item-cart")];
-
-  //   btn.forEach(function (button) {
-  //     let id = button.dataset.id;
-  //     let inCart = cart.find((item) => item.id === id);
-  //     if (inCart) {
-  //       // button.innerText = "In Cart";
-  //       // button.disabled = true;
-  //     }
-  //     button.addEventListener("click", (event) => {
-  //       event.target.innerText = "in Cart";
-  //       event.target.disabled = true;
-  //     });
-  //   });
-  // }
-}
+ getbagButtons() {
+   const btn = [...document.querySelectorAll(".item-cart")];
+  btn.forEach(function (button) {
+     let id = button.dataset.id;
+     let inCart = cart.find((item) => item.id === id);
+     if (inCart) {
+button.innerText = "In Cart";
+ button.disabled = true;
+     }
+     button.addEventListener("click", (event) => {
+       event.target.innerText = "in Cart";
+       event.target.disabled = true;
+     });
+   });
+ }
+ }
 
 class Storage {
   static SaveProducts(products) {

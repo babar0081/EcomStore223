@@ -11,7 +11,7 @@
                 "Image": {
                     "Fields": {
                         "file":{
-                        "url": "./Tshirts/T-shirt Designs/3.jpg"}
+                        "url": "./img/T-shirt Designs/3.jpg"}
                     }
                 }
             }
@@ -27,7 +27,7 @@
                 "Image": {
                     "Fields": {
                         "file":{
-                        "url": "./Tshirts/T-shirt Designs/4.jpg"}
+                        "url": "./img/T-shirt Designs/4.jpg"}
                     }
                 }
             }
@@ -43,7 +43,7 @@
                 "Image": {
                     "Fields": {
                         "file":{
-                        "url": "./Tshirts/T-shirt Designs/5.jpg"}
+                        "url": "./img/T-shirt Designs/5.jpg"}
                     }
                 }
             }
@@ -59,7 +59,7 @@
                 "Image": {
                     "Fields": {
                         "file":{
-                        "url": "./Tshirts/T-shirt Designs/6.jpg"}
+                        "url": "./img/T-shirt Designs/6.jpg"}
                     }
                 }
             }
@@ -75,7 +75,7 @@
                 "Image": {
                     "Fields": {
                         "file":{
-                        "url": "./Tshirts/T-shirt Designs/7.jpg"}
+                        "url": "./img/T-shirt Designs/7.jpg"}
                     }
                 }
             }
@@ -91,7 +91,7 @@
                 "Image": {
                     "Fields": {
                         "file":{
-                        "url": "./Tshirts/T-shirt Designs/8.jpg"}
+                        "url": "./img/T-shirt Designs/8.jpg"}
                     }
                 }
             }
@@ -107,7 +107,7 @@
                 "Image": {
                     "Fields": {
                         "file":{
-                        "url": "/Tshirts/T-shirt Designs/9.jpg"
+                        "url": "/img/T-shirt Designs/9.jpg"
                     }}
                 }
             }
@@ -124,7 +124,7 @@
                     "Fields": {
                         "file":{
 
-                            "url": "./Tshirts/T-shirt Designs/3.jpg"
+                            "url": "./img/T-shirt Designs/3.jpg"
                         }
                     }
                 }
@@ -141,7 +141,7 @@
                 "Image": {
                     "Fields": {
                         "file":{
-                        "url": "./Tshirts/T-shirt Designs/2.jpg"
+                        "url": "./img/T-shirt Designs/2.jpg"
                     }
                 }
                 }
