@@ -306,6 +306,13 @@ body {
   justify-content: center;
 }
 
+#Shop {
+
+background-color: rgba(212, 209, 209, 0.685);
+height: 200vh;
+/* margin: 0px 2%; */
+border-radius: 10px;
+}
 #Shop h2 {
   display: flex;
   align-items: center;
