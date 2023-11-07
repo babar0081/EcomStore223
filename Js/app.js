@@ -108,7 +108,7 @@ let cart = [];
 class Products{
   async getProducts(){
   try {
-     const data= await fetch("/app1.json");
+     const data= await fetch("/Js/app1.json");
      const result = await data.json();
      const product = result.items;
      product=product.map( function(itm){
